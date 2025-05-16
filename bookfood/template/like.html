@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
       <link rel="icon" href="img/logo.png" type="image/png">
-      <title>Фудекс | Заказ еды в Ханое</title>
+      <title>Вкус Ханоя | Заказ еды в Ханое</title>
       <!-- Bootstrap css -->
       <link rel="stylesheet" href="vender/bootstrap/css/bootstrap.min.css">
       <!-- Bootstrap icon -->
@@ -42,30 +42,34 @@
          <div class="osahan-page-body vh-100 my-auto overflow-auto px-3">
             <div class="btn-group gap-2" role="group" aria-label="Группа кнопок с переключателями">
                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-               <label class="btn btn-outline-secondary rounded-pill shadow-sm" for="btncheck1"><span class="mdi mdi-noodles lh-sm m-0"></span> Фо</label>
+               <label class="btn btn-outline-secondary rounded-pill shadow-sm" for="btncheck1"><span class="mdi mdi-food-drumstick lh-sm m-0"></span> Основные блюда</label>
                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
-               <label class="btn btn-outline-secondary rounded-pill shadow-sm" for="btncheck2"><span class="mdi mdi-hamburger lh-sm m-0"></span> Бан Ми</label>
+               <label class="btn btn-outline-secondary rounded-pill shadow-sm" for="btncheck2"><span class="mdi mdi-salad lh-sm m-0"></span> Салаты</label>
                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-               <label class="btn btn-outline-secondary rounded-pill shadow-sm" for="btncheck3"><span class="mdi mdi-food-drumstick lh-sm m-0"></span> Нем</label>
+               <label class="btn btn-outline-secondary rounded-pill shadow-sm" for="btncheck3"><span class="mdi mdi-pancakes lh-sm m-0"></span> Десерты</label>
             </div>
             <h6 class="mb-3 mt-3 fw-bold">Любимая еда</h6>
             <!--card-->
             <div class="d-flex gap-3 mb-3">
                <div>
-                  <div class="card rounded-4 border-0 shadow-sm osahan-card">
+                  <div class="card rounded-4 border-0 shadow-sm osahan-card position-relative">
                      <div class="card-body d-flex flex-column">
-                        <span class="material-symbols-outlined ms-auto">favorite</span>
-                        <img class="img-fluid mb-3" src="img/list/1.jpeg" alt="Шашлык">
-                        <div class="d-flex">
-                           <span class="badge rounded-pill bg-info-subtle pt-1 text-info">Гриль</span>
+                        <div style="position: absolute; top: 10px; right: 10px;">
+                           <div class="bg-white rounded-circle shadow-sm p-1 d-flex align-items-center justify-content-center" style="width: 30px; height: 30px;">
+                              <span class="material-symbols-outlined text-danger fs-5">favorite</span>
+                           </div>
                         </div>
-                        <h5 class="mb-0 mt-2 fw-bold">Шашлык</h5>
+                        <img class="img-fluid mb-3" src="img/list/1.jpeg" alt="Вареники с картошкой и грибами">
+                        <div class="d-flex">
+                           <span class="badge rounded-pill bg-info-subtle pt-1 text-info">Основное</span>
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">Вареники с картошкой и грибами</h5>
                         <div class="d-flex gap-2 align-items-center mb-2">
                            <p class="text-secondary opacity-75 mb-0 miny-text">250 г</p>
                            <p class="text-primary opacity-75 mb-0 miny-text"><span class="mdi mdi-star text-primary"></span> 4.8</p>
                         </div>
                         <div class="d-flex align-items-center">
-                           <h4 class="mb-0">250 000₫ <span class="text-secondary fs-6 mb-0 fw-normal text-decoration-line-through">275 000₫</span></h4>
+                           <h4 class="mb-0">75,000 ₫</h4>
                            <a href="add-to-cart.html" class="text-decoration-none bg-dark rounded-pill p-1 d-flex align-items-center justify-content-center ms-auto"><span class="material-symbols-outlined text-white">add</span></a>
                         </div>
                      </div>
@@ -73,20 +77,24 @@
                   </div>
                </div>
                <div>
-                  <div class="card rounded-4 border-0 shadow-sm osahan-card">
+                  <div class="card rounded-4 border-0 shadow-sm osahan-card position-relative">
                      <div class="card-body d-flex flex-column">
-                        <span class="material-symbols-outlined ms-auto">favorite</span>
-                        <img class="img-fluid mb-3" src="img/list/2.jpeg" alt="Пельмени свиные">
-                        <div class="d-flex">
-                           <span class="badge rounded-pill bg-danger-subtle text-danger pt-1">Полуфабрикаты</span>
+                        <div style="position: absolute; top: 10px; right: 10px;">
+                           <div class="bg-white rounded-circle shadow-sm p-1 d-flex align-items-center justify-content-center" style="width: 30px; height: 30px;">
+                              <span class="material-symbols-outlined text-danger fs-5">favorite</span>
+                           </div>
                         </div>
-                        <h5 class="mb-0 mt-2 fw-bold">Пельмени свиные</h5>
+                        <img class="img-fluid mb-3" src="img/list/2.jpeg" alt="Голубцы">
+                        <div class="d-flex">
+                           <span class="badge rounded-pill bg-info-subtle pt-1 text-info">Основное</span>
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">Голубцы</h5>
                         <div class="d-flex gap-2 align-items-center mb-2">
-                           <p class="text-secondary opacity-75 mb-0 miny-text">1 кг</p>
+                           <p class="text-secondary opacity-75 mb-0 miny-text">200 г</p>
                            <p class="text-primary opacity-75 mb-0 miny-text"><span class="mdi mdi-star text-primary"></span> 4.9</p>
                         </div>
                         <div class="d-flex align-items-center">
-                           <h4 class="mb-0">250 000₫ <span class="text-secondary fs-6 mb-0 fw-normal text-decoration-line-through">300 000₫</span></h4>
+                           <h4 class="mb-0">85,000 ₫</h4>
                            <a href="add-to-cart.html" class="text-decoration-none bg-dark rounded-pill p-1 d-flex align-items-center justify-content-center ms-auto"><span class="material-symbols-outlined text-white">add</span></a>
                         </div>
                      </div>
@@ -96,41 +104,49 @@
             </div>
             <div class="d-flex gap-3 mb-3">
                <div>
-                  <div class="card rounded-4 border-0 shadow-sm osahan-card">
+                  <div class="card rounded-4 border-0 shadow-sm osahan-card position-relative">
                      <div class="card-body d-flex flex-column">
-                        <span class="material-symbols-outlined ms-auto">favorite</span>
-                        <img class="img-fluid mb-3" src="img/list/3.jpeg" alt="Фо Бо">
+                        <div style="position: absolute; top: 10px; right: 10px;">
+                           <div class="bg-white rounded-circle shadow-sm p-1 d-flex align-items-center justify-content-center" style="width: 30px; height: 30px;">
+                              <span class="material-symbols-outlined text-danger fs-5">favorite</span>
+                           </div>
+                        </div>
+                        <img class="img-fluid mb-3" src="img/list/3.jpeg" alt="Перец фаршированный">
                         <div class="d-flex">
-                           <span class="badge rounded-pill bg-success-subtle text-success pt-1">Салаты</span>
+                           <span class="badge rounded-pill bg-info-subtle pt-1 text-info">Основное</span>
                         </div>
-                        <h5 class="mb-0 mt-2 fw-bold">Салат Оливье</h5>
+                        <h5 class="mb-0 mt-2 fw-bold">Перец фаршированный</h5>
                         <div class="d-flex gap-2 align-items-center mb-2">
-                           <p class="text-secondary opacity-75 mb-0 miny-text"> 200 г</p>
-                           <p class="text-primary opacity-75 mb-0 miny-text"><span class="mdi mdi-star text-primary"></span> 4.9</p>
-                        </div>
-                        <div class="d-flex align-items-center">
-                           <h4 class="mb-0">102 000₫ <span class="text-secondary fs-6 mb-0 fw-normal text-decoration-line-through">130 000₫</span></h4>
-                           <a href="add-to-cart.html" class="text-decoration-none bg-dark rounded-pill p-1 d-flex align-items-center justify-content-center ms-auto"><span class="material-symbols-outlined text-white">add</span></a>
-                        </div>
-                     </div>
-                     <a href="add-to-cart-2.html" class="stretched-link"></a>
-                  </div>
-               </div>
-               <div>
-                  <div class="card rounded-4 border-0 shadow-sm osahan-card">
-                     <div class="card-body d-flex flex-column">
-                        <span class="material-symbols-outlined ms-auto">favorite</span>
-                        <img class="img-fluid mb-3" src="img/list/4.jpeg" alt="Бан Ми">
-                        <div class="d-flex">
-                           <span class="badge rounded-pill bg-info-subtle text-info pt-1">Салат</span>
-                        </div>
-                        <h5 class="mb-0 mt-2 fw-bold">Салат из жареного батата и капусты</h5>
-                        <div class="d-flex gap-2 align-items-center mb-2">
-                           <p class="text-secondary opacity-75 mb-0 miny-text">1 шт</p>
+                           <p class="text-secondary opacity-75 mb-0 miny-text">200 г</p>
                            <p class="text-primary opacity-75 mb-0 miny-text"><span class="mdi mdi-star text-primary"></span> 4.7</p>
                         </div>
                         <div class="d-flex align-items-center">
-                           <h4 class="mb-0">118.800đ <span class="text-secondary fs-6 mb-0 fw-normal text-decoration-line-through">118.800đ</span></h4>
+                           <h4 class="mb-0">70,000 ₫</h4>
+                           <a href="add-to-cart.html" class="text-decoration-none bg-dark rounded-pill p-1 d-flex align-items-center justify-content-center ms-auto"><span class="material-symbols-outlined text-white">add</span></a>
+                        </div>
+                     </div>
+                     <a href="add-to-cart-2.html" class="stretched-link"></a>
+                  </div>
+               </div>
+               <div>
+                  <div class="card rounded-4 border-0 shadow-sm osahan-card position-relative">
+                     <div class="card-body d-flex flex-column">
+                        <div style="position: absolute; top: 10px; right: 10px;">
+                           <div class="bg-white rounded-circle shadow-sm p-1 d-flex align-items-center justify-content-center" style="width: 30px; height: 30px;">
+                              <span class="material-symbols-outlined text-danger fs-5">favorite</span>
+                           </div>
+                        </div>
+                        <img class="img-fluid mb-3" src="img/list/4.jpeg" alt="Пюре с котлетой">
+                        <div class="d-flex">
+                           <span class="badge rounded-pill bg-info-subtle pt-1 text-info">Основное</span>
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">Пюре с котлетой</h5>
+                        <div class="d-flex gap-2 align-items-center mb-2">
+                           <p class="text-secondary opacity-75 mb-0 miny-text">300 г</p>
+                           <p class="text-primary opacity-75 mb-0 miny-text"><span class="mdi mdi-star text-primary"></span> 4.8</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                           <h4 class="mb-0">85,000 ₫</h4>
                            <a href="add-to-cart.html" class="text-decoration-none bg-dark rounded-pill p-1 d-flex align-items-center justify-content-center ms-auto"><span class="material-symbols-outlined text-white">add</span></a>
                         </div>
                      </div>
@@ -140,20 +156,24 @@
             </div>
             <div class="d-flex gap-3 mb-3">
                <div>
-                  <div class="card rounded-4 border-0 shadow-sm osahan-card">
+                  <div class="card rounded-4 border-0 shadow-sm osahan-card position-relative">
                      <div class="card-body d-flex flex-column">
-                        <span class="material-symbols-outlined ms-auto">favorite</span>
-                        <img class="img-fluid mb-3" src="img/list/5.jpeg" alt="Нем">
-                        <div class="d-flex">
-                           <span class="badge rounded-pill bg-warning-subtle text-warning pt-1">Супы</span>
+                        <div style="position: absolute; top: 10px; right: 10px;">
+                           <div class="bg-white rounded-circle shadow-sm p-1 d-flex align-items-center justify-content-center" style="width: 30px; height: 30px;">
+                              <span class="material-symbols-outlined text-danger fs-5">favorite</span>
+                           </div>
                         </div>
-                        <h5 class="mb-0 mt-2 fw-bold">Борщ</h5>
+                        <img class="img-fluid mb-3" src="img/list/5.jpeg" alt="Гречка с котлетой">
+                        <div class="d-flex">
+                           <span class="badge rounded-pill bg-info-subtle pt-1 text-info">Основное</span>
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">Гречка с котлетой</h5>
                         <div class="d-flex gap-2 align-items-center mb-2">
-                           <p class="text-secondary opacity-75 mb-0 miny-text">5 шт</p>
+                           <p class="text-secondary opacity-75 mb-0 miny-text">300 г</p>
                            <p class="text-primary opacity-75 mb-0 miny-text"><span class="mdi mdi-star text-primary"></span> 4.8</p>
                         </div>
                         <div class="d-flex align-items-center">
-                           <h4 class="mb-0">140.400₫ <span class="text-secondary fs-6 mb-0 fw-normal text-decoration-line-through">140.400đ₫</span></h4>
+                           <h4 class="mb-0">85,000 ₫</h4>
                            <a href="add-to-cart.html" class="text-decoration-none bg-dark rounded-pill p-1 d-flex align-items-center justify-content-center ms-auto"><span class="material-symbols-outlined text-white">add</span></a>
                         </div>
                      </div>
@@ -161,22 +181,26 @@
                   </div>
                </div>
                <div>
-                  <div class="card rounded-4 border-0 shadow-sm osahan-card">
+                  <div class="card rounded-4 border-0 shadow-sm osahan-card position-relative">
                      <div class="card-body d-flex flex-column">
-                        <span class="material-symbols-outlined ms-auto">favorite</span>
-                        <img class="img-fluid mb-3" src="img/list/6.jpeg" alt="Ресторан Eshse">
-                        <div class="d-flex">
-                           <span class="badge rounded-pill bg-info-subtle pt-1 text-info">Горячие блюда</span>
+                        <div style="position: absolute; top: 10px; right: 10px;">
+                           <div class="bg-white rounded-circle shadow-sm p-1 d-flex align-items-center justify-content-center" style="width: 30px; height: 30px;">
+                              <span class="material-symbols-outlined text-danger fs-5">favorite</span>
+                           </div>
                         </div>
-                        <h5 class="mb-0 mt-2 fw-bold">Котлеты по киевски</h5>
+                        <img class="img-fluid mb-3" src="img/list/6.jpeg" alt="Цезарь">
+                        <div class="d-flex">
+                           <span class="badge rounded-pill bg-success-subtle pt-1 text-success">Салат</span>
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">Цезарь</h5>
                         <div class="d-flex gap-2 align-items-center mb-2">
-                           <p class="text-secondary opacity-75 mb-0 miny-text">300</p>
-                           <p class="text-primary opacity-75 mb-0 miny-text"><span class="mdi mdi-star text-primary"></span> 4.8</p>
+                           <p class="text-secondary opacity-75 mb-0 miny-text">250 г</p>
+                           <p class="text-primary opacity-75 mb-0 miny-text"><span class="mdi mdi-star text-primary"></span> 4.9</p>
                         </div>
                         <div class="d-flex align-items-center">
-                           <h4 class="mb-0">270 000₫ <span class="text-secondary fs-6 mb-0 fw-normal text-decoration-line-through">270 000₫</span></h4>
+                           <h4 class="mb-0">90,000 ₫</h4>
                            <a href="add-to-cart.html" class="text-decoration-none bg-dark rounded-pill p-1 d-flex align-items-center justify-content-center ms-auto"><span class="material-symbols-outlined text-white">add</span></a>
-                        </div>ц
+                        </div>
                      </div>
                      <a href="add-to-cart-2.html" class="stretched-link"></a>
                   </div>
@@ -186,10 +210,10 @@
          <div class="osahan-page-footer mt-auto p-3">
             <div class="d-flex justify-content-between align-items-center bg-white shadow rounded-pill px-3">
                <div class="text-center lh-1 col">
-                  <a class="p-3 d-block" href="home.html"><span class="material-symbols-outlined text-secondary">home</span></a>
+                  <a class="p-3 d-block" href="home.html"><span class="material-symbols-outlined text-primary">home</span></a>
                </div>
                <div class="text-center lh-1 col">
-                  <a class="p-3 d-block" href="like.html"><span class="material-symbols-outlined text-primary">favorite</span></a>
+                  <a class="p-3 d-block" href="like.html"><span class="material-symbols-outlined text-secondary">favorite</span></a>
                </div>
                <div class="text-center lh-1 col">
                   <a class="p-3 d-block" href="chat.html"><span class="material-symbols-outlined text-secondary">shopping_bag</span></a>
@@ -205,90 +229,90 @@
       </div>
       <!-- sidebar nav -->
       <nav id="main-nav">
-        <ul class="second-nav">
-          <li class="osahan-user-profile bg-primary">
-              <div class="d-flex align-items-center gap-2">
-                <img src="img/user/1.jpeg" alt="Аватар пользователя" class="rounded-pill img-fluid cw-30">
-                <div class="ps-1">
-                    <h6 class="fw-bold text-white mb-0">Привет, гость</h6>
-                    <p class="text-white-50 m-0 small">+91 12345-67890</p>
-                </div>
-              </div>
-          </li>
-          <li><a href="index.html"><span class="mdi mdi-cellphone me-3"></span>Начальный экран</a></li>
-          <li>
-              <a href="#"><span class="mdi mdi-login me-3"></span>Аутентификация</a>
-              <ul>
-                <li><a href="landing.html">Лендинг</a></li>
-                <li><a href="register.html">Регистрация</a></li>
-                <li><a href="login.html">Вход</a></li>
-                <li><a href="verification.html">Верификация</a></li>
-                <li><a href="forget-password.html">Забыли пароль</a></li>
-                <li><a href="verify-email.html">Подтверждение email</a></li>
-                <li><a href="verify.html">Подтверждение телефона</a></li>
-                <li><a href="reset-password.html">Сброс пароля</a></li>
-              </ul>
-          </li>
-          <li><a href="notification.html"><span class="mdi mdi-bell-outline me-3"></span>Уведомления</a></li>
-          <li><a href="home.html"><span class="mdi mdi-home-variant-outline me-3"></span>Главная страница</a></li>
-          <li><a href="like.html"><span class="mdi mdi-note-search-outline me-3"></span>Самое популярное</a></li>
-          <li><a href="asian-dish.html"><span class="mdi mdi-map-clock-outline me-3"></span>Рестораны поблизости</a></li>
-          <li><a href="food-search.html"><span class="mdi mdi-feature-search-outline me-3"></span>Поиск еды</a></li>
-          <li><a href="pizza.html"><span class="mdi mdi-grid-large me-3"></span>Список в виде сетки</a></li>
-          <li><a href="donat.html"><span class="mdi mdi-format-list-checkbox me-3"></span>Популярные блюда</a></li>
-          <li><a href="apply.html"><span class="mdi mdi-filter-outline me-3"></span>Фильтр</a></li>
-          <li>
-              <a href="#"><span class="mdi mdi-login me-3"></span>Детали списка</a>
-              <ul>
-                <li><a href="add-to-cart-2.html">Деталь 1</a></li>
-                <li><a href="add-to-cart.html">Деталь 2</a></li>
-              </ul>
-          </li>
-          <li><a href="profile.html"><span class="mdi mdi-account-outline me-3"></span>Профиль</a></li>
-          <li><a href="chat.html"><span class="mdi mdi-message-outline me-3"></span>Чат</a></li>
-          <li>
-              <a href="#"><span class="mdi mdi-account-outline me-3"></span>Мой профиль</a>
-              <ul>
-                <li><a href="preferences.html">Настройки</a></li>
-                <li><a href="account-information.html">Информация об аккаунте</a></li>
-                <li><a href="add-to-address.html">Выбрать адрес</a></li>
-                <li><a href="address-add.html">Добавить новый адрес</a></li>
-                <li><a href="invite.html">Пригласить</a></li>
-              </ul>
-          </li>
-          <li><a href="review-payment.html"><span class="mdi mdi-cart-outline me-3"></span>Корзина</a></li>
-          <li>
-              <a href="#"><span class="mdi mdi-account-outline me-3"></span>Оформление заказа</a>
-              <ul>
-                <li><a href="payment-choose.html">Выбор оплаты</a></li>
-                <li><a href="payment-method.html">Способ оплаты</a></li>
-                <li><a href="add-new-card.html">Добавить новую карту</a></li>
-                <li><a href="card-check-out.html">Оплата картой</a></li>
-                <li><a href="track.html">Отслеживание</a></li>
-              </ul>
-          </li>
-          <li><a href="order-recive.html"><span class="mdi mdi-star-outline me-3"></span>Оценка</a></li>
-        </ul>
-        <ul class="bottom-nav">
-          <li class="home">
-              <a href="home.html">
-                <p class="h5 m-0"><span class="mdi mdi-home-variant-outline"></span></p>
-                Главная
-              </a>
-          </li>
-          <li class="find">
-              <a href="food-search.html">
-                <p class="h5 m-0"><span class="mdi mdi-magnify"></span></p>
-                Поиск
-              </a>
-          </li>
-          <li class="more">
-              <a href="profile.html">
-                <p class="h5 m-0"><span class="mdi mdi-account-circle-outline"></span></p>
-                Профиль
-              </a>
-          </li>
-        </ul>
+         <ul class="second-nav">
+            <li class="osahan-user-profile bg-primary">
+               <div class="d-flex align-items-center gap-2">
+                  <img src="img/user/1.jpeg" alt="Аватар пользователя" class="rounded-pill img-fluid cw-30">
+                  <div class="ps-1">
+                     <h6 class="fw-bold text-white mb-0">Привет, Анна!</h6>
+                     <p class="text-white-50 m-0 small">+84 12345-67890</p>
+                  </div>
+               </div>
+            </li>
+            <li><a href="index.html"><span class="mdi mdi-cellphone me-3"></span>Главная</a></li>
+            <li>
+               <a href="#"><span class="mdi mdi-login me-3"></span>Авторизация</a>
+               <ul>
+                  <li><a href="landing.html">Вход</a></li>
+                  <li><a href="register.html">Регистрация</a></li>
+                  <li><a href="login.html">Войти</a></li>
+                  <li><a href="verifiction.html">Верификация</a></li>
+                  <li><a href="forget-password.html">Забыли пароль</a></li>
+                  <li><a href="verify-email.html">Подтверждение email</a></li>
+                  <li><a href="verify.html">Подтверждение телефона</a></li>
+                  <li><a href="rest-password.html">Сброс пароля</a></li>
+               </ul>
+            </li>
+            <li><a href="notification.html"><span class="mdi mdi-bell-outline me-3"></span>Уведомления</a></li>
+            <li><a href="home.html"><span class="mdi mdi-home-variant-outline me-3"></span>Домашняя страница</a></li>
+            <li><a href="like.html"><span class="mdi mdi-note-search-outline me-3"></span>Популярное</a></li>
+            <li><a href="asian-dish.html"><span class="mdi mdi-map-clock-outline me-3"></span>Рестораны рядом</a></li>
+            <li><a href="food-search.html"><span class="mdi mdi-feature-search-outline me-3"></span>Поиск еды</a></li>
+            <li><a href="pizza.html"><span class="mdi mdi-grid-large me-3"></span>Список блюд</a></li>
+            <li><a href="donat.html"><span class="mdi mdi-format-list-checkbox me-3"></span>Популярные блюда</a></li>
+            <li><a href="apply.html"><span class="mdi mdi-filter-outline me-3"></span>Фильтр</a></li>
+            <li>
+               <a href="#"><span class="mdi mdi-login me-3"></span>Детали блюд</a>
+               <ul>
+                  <li><a href="add-to-cart-2.html">Детали 1</a></li>
+                  <li><a href="add-to-cart.html">Детали 2</a></li>
+               </ul>
+            </li>
+            <li><a href="profile.html"><span class="mdi mdi-account-outline me-3"></span>Профиль</a></li>
+            <li><a href="chat.html"><span class="mdi mdi-message-outline me-3"></span>Чат</a></li>
+            <li>
+               <a href="#"><span class="mdi mdi-account-outline me-3"></span>Мой профиль</a>
+               <ul>
+                  <li><a href="preferences.html">Настройки</a></li>
+                  <li><a href="account-information.html">Информация об аккаунте</a></li>
+                  <li><a href="add-to-address.html">Выбрать адрес</a></li>
+                  <li><a href="address-add.html">Добавить новый адрес</a></li>
+                  <li><a href="invite.html">Пригласить</a></li>
+               </ul>
+            </li>
+            <li><a href="review-payment.html"><span class="mdi mdi-cart-outline me-3"></span>Корзина</a></li>
+            <li>
+               <a href="#"><span class="mdi mdi-account-outline me-3"></span>Оформление заказа</a>
+               <ul>
+                  <li><a href="payment-choose.html">Выбор оплаты</a></li>
+                  <li><a href="payment-method.html">Способы оплаты</a></li>
+                  <li><a href="add-new-card.html">Добавить карту</a></li>
+                  <li><a href="card-check-out.html">Оплата картой</a></li>
+                  <li><a href="track.html">Отслеживание</a></li>
+               </ul>
+            </li>
+            <li><a href="order-recive.html"><span class="mdi mdi-star-outline me-3"></span>Оценка</a></li>
+         </ul>
+         <ul class="bottom-nav">
+            <li class="home">
+               <a href="home.html">
+                  <p class="h5 m-0"><span class="mdi mdi-home-variant-outline"></span></p>
+                  Главная
+               </a>
+            </li>
+            <li class="find">
+               <a href="food-search.html">
+                  <p class="h5 m-0"><span class="mdi mdi-magnify"></span></p>
+                  Поиск
+               </a>
+            </li>
+            <li class="more">
+               <a href="profile.html">
+                  <p class="h5 m-0"><span class="mdi mdi-account-circle-outline"></span></p>
+                  Профиль
+               </a>
+            </li>
+         </ul>
       </nav>
       <!-- Bootstrap bundle js -->
       <script src="vender/bootstrap/js/bootstrap.bundle.min.js"></script>
